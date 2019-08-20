@@ -14,14 +14,11 @@ source:
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
-  build:
-    - python
-    - setuptools
-    - pip
   host:
+    - python
     - pip
   run:
     - python
@@ -44,5 +41,5 @@ about:
 
 extra:
   recipe-maintainers:
-      - mrocklin
-      - emmett9001
+    - mrocklin
+    - emmett9001
