@@ -5,7 +5,7 @@ Home: http://github.com/python-zk/kazoo
 
 Package license: Apache-2.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Kazoo is a high-level Python library that makes it easier to use Apache Zookeeper
 
